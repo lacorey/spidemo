@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bd514d86-8465-4695-bced-f3dd946328ed" name="Default Changelist" comment="" />
+    <list default="true" id="bd514d86-8465-4695-bced-f3dd946328ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver-consumer/src/main/java/com/ecua/spi/test/DriverTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver-consumer/src/main/java/com/ecua/spi/test/DriverTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver-consumer/target/classes/com/ecua/spi/test/DriverTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver-consumer/target/classes/com/ecua/spi/test/DriverTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver-mysql/src/main/java/com/ecua/spi/impl/MySqlDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver-mysql/src/main/java/com/ecua/spi/impl/MySqlDriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver-mysql/target/classes/com/ecua/spi/impl/MySqlDriverImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver-mysql/target/classes/com/ecua/spi/impl/MySqlDriverImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver-oracle/src/main/java/com/ecua/spi/impl/OracleDriverImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver-oracle/src/main/java/com/ecua/spi/impl/OracleDriverImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver-oracle/target/classes/com/ecua/spi/impl/OracleDriverImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver-oracle/target/classes/com/ecua/spi/impl/OracleDriverImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/service/LoadDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/service/LoadDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver/target/classes/com/ecua/spi/manager/ParserManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sql-driver/target/classes/com/ecua/spi/service/LoadDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/sql-driver/target/classes/com/ecua/spi/service/LoadDriver.class" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/sql-driver/target/" />
@@ -17,19 +30,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql-driver-oracle/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql-driver-mysql/src/main/resources/META-INF/services/com.ecua.spi.service.LoadDriver">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+              <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -37,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql-driver-oracle/src/main/java/com/ecua/spi/impl/OracleDriverImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
+            <state relative-caret-position="255">
               <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -46,16 +50,48 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="163">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="223">
+              <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#452#464#0" expanded="true" />
-                <element signature="e#1041#1042#0" expanded="true" />
-                <element signature="e#1086#1087#0" expanded="true" />
+                <element signature="e#1037#1038#0" expanded="true" />
+                <element signature="e#1082#1083#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/exception/LoadDriverNotFoundException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" selection-start-line="7" selection-end-line="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/model/DriverInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+              <folding>
+                <element signature="e#163#164#0" expanded="true" />
+                <element signature="e#196#197#0" expanded="true" />
+                <element signature="e#248#249#0" expanded="true" />
+                <element signature="e#292#293#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -64,17 +100,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql-driver-consumer/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
+            <state relative-caret-position="58">
               <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql-driver-consumer/src/main/java/com/ecua/spi/test/DriverTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="374">
+              <caret line="22" column="33" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,10 +119,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sql-driver-oracle/src/main/resources/META-INF/services/com.ecua.spi.service.LoadDriver">
+        <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/service/LoadDriver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="34" selection-start-column="34" selection-end-column="34" />
+            <state relative-caret-position="153">
+              <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -94,8 +130,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/sql-driver-mysql/src/main/java/com/ecua/spi/impl/MySqlDriverImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="400">
-              <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -113,6 +149,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -127,10 +166,13 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sql-driver-consumer/pom.xml" />
         <option value="$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/serivce/DefaultDriver.java" />
-        <option value="$PROJECT_DIR$/sql-driver-mysql/src/main/java/com/ecua/spi/impl/MySqlDriverImpl.java" />
         <option value="$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java" />
+        <option value="$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/service/LoadDriver.java" />
+        <option value="$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java" />
         <option value="$PROJECT_DIR$/sql-driver-consumer/src/main/java/com/ecua/spi/test/DriverTest.java" />
         <option value="$PROJECT_DIR$/sql-driver-oracle/src/main/java/com/ecua/spi/impl/OracleDriverImpl.java" />
+        <option value="$PROJECT_DIR$/sql-driver-mysql/src/main/java/com/ecua/spi/impl/MySqlDriverImpl.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -147,18 +189,17 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="32" />
+    <option name="x" value="12" />
     <option name="y" value="23" />
-    <option name="width" value="1408" />
-    <option name="height" value="800" />
+    <option name="width" value="1423" />
+    <option name="height" value="830" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -170,18 +211,26 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1561976568049" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1562835710949" />
+    <property name="ignore_missing_gitignore" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -234,17 +283,20 @@
       <updated>1561713761321</updated>
       <workItem from="1561713762718" duration="3891000" />
       <workItem from="1561950428473" duration="3470000" />
-      <workItem from="1561973245307" duration="2842000" />
+      <workItem from="1561973245307" duration="3386000" />
+      <workItem from="1561983656679" duration="589000" />
+      <workItem from="1562833719435" duration="1862000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10203000" />
+    <option name="totallyTimeSpent" value="13198000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="32" y="23" width="1408" height="800" extended-state="0" />
+    <frame x="12" y="23" width="1423" height="830" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2569546" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2063722" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -253,7 +305,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32894737" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32894737" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3277311" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991228" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -261,10 +313,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.31512606" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="MyBatis Sql Log" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32894737" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.3277311" />
       <window_info anchor="bottom" id="Tail" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -285,30 +337,24 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/sql-driver-mysql/src/main/java/com/ecua/spi/impl/MySqlDriverImpl.java</url>
-          <line>28</line>
+          <line>27</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sql-driver-mysql/src/main/java/com/ecua/spi/impl/MySqlDriverImpl.java</url>
-          <line>24</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java</url>
+          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java</url>
           <line>38</line>
           <properties />
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java</url>
+          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java</url>
           <line>40</line>
           <properties />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java</url>
+          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java</url>
           <line>48</line>
           <properties />
           <option name="timeStamp" value="5" />
@@ -320,19 +366,19 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java</url>
+          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java</url>
           <line>23</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java</url>
+          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="9" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java</url>
+          <url>file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="10" />
@@ -345,32 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="32" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/exception/LoadDriverNotFoundException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/service/LoadDriver.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/model/DriverInfo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding>
-            <element signature="e#196#197#0" expanded="true" />
-            <element signature="e#248#249#0" expanded="true" />
-            <element signature="e#292#293#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -388,6 +408,8 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/resources/META-INF/services/com.ecua.spi.service.LoadDriver" />
+    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/serivce/DefaultDriver.java" />
     <entry file="file://$PROJECT_DIR$/sql-driver-oracle/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -402,59 +424,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/resources/META-INF/services/com.ecua.spi.service.LoadDriver">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/serivce/DefaultDriver.java">
+    <entry file="file://$PROJECT_DIR$/sql-driver-consumer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="58">
+          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql-driver-mysql/src/main/resources/META-INF/services/com.ecua.spi.service.LoadDriver">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
+          <caret column="20" lean-forward="true" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/exception/LoadDriverNotFoundException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/service/LoadDriver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/model/DriverInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <folding>
+            <element signature="e#163#164#0" expanded="true" />
+            <element signature="e#196#197#0" expanded="true" />
+            <element signature="e#248#249#0" expanded="true" />
+            <element signature="e#292#293#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql-driver-mysql/src/main/java/com/ecua/spi/impl/MySqlDriverImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="25" column="33" lean-forward="true" selection-start-line="25" selection-start-column="33" selection-end-line="25" selection-end-column="33" />
+        <state relative-caret-position="270">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql-driver-consumer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/LoadDriverManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="13" column="18" selection-start-line="13" selection-start-column="18" selection-end-line="13" selection-end-column="18" />
+        <state relative-caret-position="223">
+          <caret line="25" column="46" lean-forward="true" selection-start-line="25" selection-start-column="46" selection-end-line="25" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1037#1038#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql-driver/src/main/java/com/ecua/spi/manager/ParserManager.java">
+    <entry file="file://$PROJECT_DIR$/sql-driver-consumer/src/main/java/com/ecua/spi/test/DriverTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        <state relative-caret-position="374">
+          <caret line="22" column="33" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#452#464#0" expanded="true" />
-            <element signature="e#1041#1042#0" expanded="true" />
-            <element signature="e#1086#1087#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sql-driver-oracle/src/main/java/com/ecua/spi/impl/OracleDriverImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
+        <state relative-caret-position="255">
           <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -462,13 +507,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sql-driver-consumer/src/main/java/com/ecua/spi/test/DriverTest.java">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="163">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,6 @@
 package com.ecua.spi.test;
 
-import com.ecua.spi.manager.ParserManager;
+import com.ecua.spi.manager.LoadDriverManager;
 import com.ecua.spi.model.DriverInfo;
 
 /**
@@ -14,12 +14,14 @@ public class DriverTest {
     }
 
     public static void testMysql(){
-        DriverInfo driver = ParserManager.getDriver("Mysql".getBytes());
+        String url = "jdbc:mysql://localhost:3306/mafengwo?useSSL=false";
+        DriverInfo driver = LoadDriverManager.getDriver(url);
         System.out.println(driver.getDriverName());
     }
 
     public static void testOracle(){
-        DriverInfo driver = ParserManager.getDriver("Oracle".getBytes());
+        String url = "jdbc:oracle://localhost:1521/mafengwo?useSSL=false";
+        DriverInfo driver = LoadDriverManager.getDriver(url);
         System.out.println(driver.getDriverName());
     }
 }

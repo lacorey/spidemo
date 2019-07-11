@@ -1,6 +1,6 @@
 package com.ecua.spi.impl;
 
-import com.ecua.spi.manager.ParserManager;
+import com.ecua.spi.manager.LoadDriverManager;
 import com.ecua.spi.model.DriverInfo;
 import com.ecua.spi.service.LoadDriver;
 
@@ -12,18 +12,17 @@ public class OracleDriverImpl implements LoadDriver {
     static {
         try
         {
-            ParserManager.registerParser(new OracleDriverImpl());
+            LoadDriverManager.registerDriver(new OracleDriverImpl());
         }
         catch (Exception e)
         {
-            throw new RuntimeException("Can't register parser!");
+            throw new RuntimeException("Can't register driver!");
         }
     }
 
 
-    public DriverInfo load(byte[] data) throws Exception {
-        String str = new String(data);
-        if(!str.equals("Oracle")){
+    public DriverInfo load(String url) throws Exception {
+        if(url.indexOf("oracle") == -1){
             return null;
         }
         DriverInfo driverInfo = new DriverInfo();

@@ -7,6 +7,6 @@ import com.ecua.spi.model.DriverInfo;
  */
 public interface LoadDriver {
 
-    public DriverInfo load(byte[] data) throws Exception;
+    public DriverInfo load(String url) throws Exception;
 
 }

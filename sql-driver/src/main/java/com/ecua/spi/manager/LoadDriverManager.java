@@ -11,15 +11,15 @@ import java.util.concurrent.CopyOnWriteArrayList;
 /**
  * Created by zxin on 2019-06-28.
  */
-public class ParserManager {
-    private final static CopyOnWriteArrayList<LoadDriver> registeredParsers = new CopyOnWriteArrayList<LoadDriver>();
+public class LoadDriverManager {
+    private final static CopyOnWriteArrayList<LoadDriver> registeredDrivers = new CopyOnWriteArrayList<LoadDriver>();
 
     static {
-        loadInitialParsers();
-        System.out.println("DriverParser initialized");
+        loadDrivers();
+        System.out.println("DriverManager initialized");
     }
 
-    private static void loadInitialParsers() {
+    private static void loadDrivers() {
         ServiceLoader<LoadDriver> loadDrivers = ServiceLoader.load(LoadDriver.class);
         Iterator<LoadDriver> driversIterator = loadDrivers.iterator();
         try{
@@ -31,21 +31,21 @@ public class ParserManager {
         }
     }
 
-    public static synchronized void registerParser(LoadDriver driver) {
-        registeredParsers.add(driver);
+    public static synchronized void registerDriver(LoadDriver driver) {
+        registeredDrivers.add(driver);
     }
 
-    public static DriverInfo getDriver(byte[] data) {
-        for (LoadDriver parserInfo : registeredParsers) {
+    public static DriverInfo getDriver(String url) {
+        for (LoadDriver driver : registeredDrivers) {
             try {
-                DriverInfo dirver = parserInfo.load(data);
+                DriverInfo dirver = driver.load(url);
                 if (dirver != null) {
                     return dirver;
                 }
             } catch (Exception e) {
-                //wrong parser, ignored it.
+                e.printStackTrace();
             }
         }
-        throw new LoadDriverNotFoundException("10001", "Can not find driver for data:" + new String(data));
+        throw new LoadDriverNotFoundException("10001", "Can not find driver for url:" + url);
     }
 }
