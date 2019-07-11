@@ -20,8 +20,6 @@ public class OracleDriverImpl implements LoadDriver {
         }
     }
 
-
-
     public DriverInfo load(String url) throws Exception {
         if(url.indexOf("oracle") == -1){
             return null;
